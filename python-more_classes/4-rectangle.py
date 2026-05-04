@@ -58,3 +58,6 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
         return "\n"
+    def __repr__(self):
+        """Return a string representation to recreate a new instance."""
+        return "Rectangle({}, {})".format(self.__width, self.__height)
