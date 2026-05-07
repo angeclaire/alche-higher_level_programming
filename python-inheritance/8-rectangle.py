@@ -1,19 +1,7 @@
 #!/usr/bin/python3
-"""Module that defines a Rectangle class inheriting from BaseGeometry."""
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
+"""Module that defines an empty BaseGeometry class."""
 
 
-class Rectangle(BaseGeometry):
-    """A rectangle defined by width and height."""
-
-    def __init__(self, width, height):
-        """Instantiate a Rectangle with validated width and height.
-
-        Args:
-            width (int): The width of the rectangle.
-            height (int): The height of the rectangle.
-        """
-        self.integer_validator("width", width)
-        self.integer_validator("height", height)
-        self.__width = width
-        self.__height = height
+class BaseGeometry:
+    """An empty base class for geometry."""
+    pass
