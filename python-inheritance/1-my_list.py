@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Module that defines MyList, a subclass of list."""
+"""Module for MyList class."""
 
 
 class MyList(list):
-    """A list subclass with a print_sorted method."""
+    """A class that inherits from list."""
 
     def print_sorted(self):
-        """Print the list in ascending sorted order without modifying it."""
+        """Prints the list sorted in ascending order."""
         print(sorted(self))
